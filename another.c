@@ -2,17 +2,17 @@ another file from tutorial
 
 #include <iostream>
 
+using namespace std;
+
 int main() {
   int num;
-  std::cin>>num;
+  cin>>num;
   
   int sum = 0;
   for(int i=1; i<=num; i++)
     sum += i;
     
-  std::cout<<sum<<"\n";
+  cout<<sum<<"\n";
   
   return 0;
-  
   }
-  
